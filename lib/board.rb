@@ -1,10 +1,14 @@
-row = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
+row = [" ", " ", " "]
+
+# Position 1: Left
 row[0]
+
+# Position 2: Middle
 row[1]
+
+# Position 3: Right
 row[2]
-row[3]
-row[4]
-row[5]
-row[6]
-row[7]
-row[8]
+
+# Move X to the Position 2, Middle
+row[1] = "X"
+row #=> [" ", "X", " "]
