@@ -1,2 +1,3 @@
-board = array
+board = Array
+
 
